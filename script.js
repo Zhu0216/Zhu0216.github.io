@@ -19,12 +19,3 @@ menuButton?.addEventListener('click', () => {
 document.querySelectorAll('.main-nav a').forEach((link) => link.addEventListener('click', () => {
   body.style.overflow = '';
 }));
-
-document.querySelector('#contact-form')?.addEventListener('submit', (event) => {
-  event.preventDefault();
-  const data = new FormData(event.currentTarget);
-  const name = `${data.get('firstName')} ${data.get('lastName')}`.trim();
-  const subject = data.get('subject') || `來自 ${name} 的網站訊息`;
-  const message = `${data.get('message') || ''}\n\n寄件人：${name}\nEmail：${data.get('email')}`;
-  window.location.href = `mailto:hello@example.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
-});

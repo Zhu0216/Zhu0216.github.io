@@ -4,5 +4,7 @@ capture-reference.js
 render-local.js
 local-*-desktop.png
 local-*-mobile.png
+journey-desktop.png
+journey-mobile.png
 .DS_Store
 Thumbs.db

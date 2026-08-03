@@ -14,7 +14,7 @@ python -m http.server 8000
 
 ## 修改內容
 
-- 個人文字與連結：`index.html`、`resume.html`、`projects.html`、`contact.html`
+- 個人文字與連結：`index.html`、`resume.html`、`projects.html`、`journey.html`
 - 配色與版面：`styles.css`
 - 個人照片：用自己的圖片取代 `assets/avatar.svg`，並更新 `index.html` 的圖片路徑
 
