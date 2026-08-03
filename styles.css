@@ -18,3 +18,16 @@
   text-orientation:mixed!important;
   transform:none!important;
 }
+
+@media (min-width:851px){
+  .journey-event{align-items:center}
+  .journey-event .journey-marker{
+    top:50%;
+    transform:translate(-50%,-50%);
+  }
+  .journey-event time{
+    top:50%;
+    transform:translateY(-50%)!important;
+  }
+  .journey-event article{align-self:center}
+}
