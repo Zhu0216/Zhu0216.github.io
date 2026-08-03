@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Zhu 的個人網站：關於我、專業經歷、作品與聯絡方式。"
+    />
+    <meta name="theme-color" content="#f4ede5" />
+    <title>Zhu｜個人作品集</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳至主要內容</a>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="回到首頁">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>ZHU</span>
+        <small>PORTFOLIO</small>
+      </a>
+
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+        <span class="sr-only">開啟選單</span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="主要導覽">
+        <a class="active" href="#home">首頁</a>
+        <a href="#about">關於</a>
+        <a href="#experience">經歷</a>
+        <a href="#projects">作品</a>
+        <a href="#contact">聯絡</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="home" class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero-backdrop" aria-hidden="true"></div>
+
+        <article class="profile-card reveal">
+          <div class="portrait-wrap">
+            <img src="assets/avatar.svg" alt="個人照片預留位置" />
+          </div>
+          <h1>你的名字</h1>
+          <span class="title-rule" aria-hidden="true"></span>
+          <p>PROJECT MANAGER</p>
+          <div class="socials" aria-label="社群連結">
+            <a href="https://github.com/Zhu0216" aria-label="GitHub">GH</a>
+            <a href="https://www.linkedin.com/" aria-label="LinkedIn">in</a>
+            <a href="mailto:hello@example.com" aria-label="Email">@</a>
+          </div>
+        </article>
+
+        <div class="hero-copy reveal">
+          <p class="eyebrow">HELLO, I’M ZHU</p>
+          <h2 id="hero-title">嗨！<br />很高興遇見你。</h2>
+          <p class="hero-role">把想法整理成清楚、可落地的成果。</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#experience">查看履歷</a>
+            <a class="button secondary" href="#projects">瀏覽作品</a>
+          </div>
+          <p class="hero-intro">
+            我專注於專案規劃、跨團隊協作與數位體驗。這裡展示我的工作方法、
+            代表作品，以及一路累積的專業經驗。
+          </p>
+        </div>
+
+        <p class="scroll-note" aria-hidden="true">SCROLL TO EXPLORE <span>↓</span></p>
+      </section>
+
+      <section id="about" class="content-section section-shell reveal">
+        <div class="section-number">01</div>
+        <div class="section-heading">
+          <p class="eyebrow">ABOUT ME</p>
+          <h2>關於我</h2>
+        </div>
+        <div class="about-copy">
+          <p class="lead">我相信，好的專案始於理解問題，也成於溝通細節。</p>
+          <p>
+            在這裡放入 2–3 段你的自我介紹：你的專長、關注的領域，以及希望帶來的價值。
+            內容不需要像制式履歷，讓讀者看見你的個性與思考方式。
+          </p>
+          <dl class="quick-facts">
+            <div><dt>所在地</dt><dd>台灣・台北</dd></div>
+            <div><dt>專長</dt><dd>專案管理 / 策略規劃</dd></div>
+            <div><dt>語言</dt><dd>中文 / English</dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <section id="experience" class="content-section section-shell experience reveal">
+        <div class="section-number">02</div>
+        <div class="section-heading">
+          <p class="eyebrow">EXPERIENCE</p>
+          <h2>專業經歷</h2>
+        </div>
+        <div class="timeline">
+          <article>
+            <time datetime="2023">2023 — 現在</time>
+            <div><h3>資深專案經理</h3><p class="company">公司名稱・台北</p><p>帶領跨部門團隊推動數位專案，從需求釐清、時程管理到成效追蹤。</p></div>
+          </article>
+          <article>
+            <time datetime="2020">2020 — 2023</time>
+            <div><h3>專案企劃</h3><p class="company">公司名稱・台北</p><p>規劃產品與行銷專案，建立團隊工作流程，協助不同角色有效協作。</p></div>
+          </article>
+          <article>
+            <time datetime="2018">2018 — 2020</time>
+            <div><h3>行銷專員</h3><p class="company">公司名稱・台中</p><p>負責內容企劃與數據分析，將使用者洞察轉化為清楚的溝通策略。</p></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="content-section section-shell projects reveal">
+        <div class="section-number">03</div>
+        <div class="section-heading">
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2>精選作品</h2>
+        </div>
+        <div class="project-grid">
+          <a class="project-card coral" href="#contact">
+            <span>01 / STRATEGY</span><h3>品牌網站改版</h3><p>策略規劃・專案管理・成效分析</p><b aria-hidden="true">↗</b>
+          </a>
+          <a class="project-card blue" href="#contact">
+            <span>02 / PRODUCT</span><h3>數位服務上線</h3><p>使用者研究・流程設計・跨團隊協作</p><b aria-hidden="true">↗</b>
+          </a>
+          <a class="project-card cream" href="#contact">
+            <span>03 / CAMPAIGN</span><h3>年度整合專案</h3><p>內容企劃・資源管理・成果追蹤</p><b aria-hidden="true">↗</b>
+          </a>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section-shell reveal">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2>有想法嗎？<br />一起聊聊。</h2>
+        <a class="contact-link" href="mailto:hello@example.com">hello@example.com <span>↗</span></a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Zhu. All rights reserved.</p>
+      <div><a href="https://github.com/Zhu0216">GitHub</a><a href="#home">回到頂端 ↑</a></div>
+    </footer>
+  </body>
+</html>
