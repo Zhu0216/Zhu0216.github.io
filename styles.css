@@ -40,3 +40,5 @@
 
 /* Keep project screenshots fully visible inside the fixed frame. */
 .project-photo{object-fit:contain!important;background:#eee}
+.project-photo-wrap{display:flex;align-items:center;justify-content:center;overflow:hidden}
+.project-photo{width:100%!important;height:auto!important;max-height:100%!important;object-fit:contain!important}
