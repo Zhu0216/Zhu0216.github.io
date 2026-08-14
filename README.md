@@ -15,6 +15,7 @@ python -m http.server 8000
 ## 修改內容
 
 - 個人文字與連結：`index.html`、`resume.html`、`projects.html`、`journey.html`
+- 履歷資料來源：`戴惠竺.pdf`（內容已整理至網站；地址保留隱私遮罩）
 - 配色與版面：`styles.css`
 - 個人照片：用自己的圖片取代 `assets/avatar.svg`，並更新 `index.html` 的圖片路徑
 
