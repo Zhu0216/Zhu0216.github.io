@@ -17,6 +17,9 @@
 .social-row .github-icon img{width:22px;height:22px}
 .footer-social .github-icon img{width:20px;height:20px}
 .social-row .github-icon:hover,.footer-social .github-icon:hover{transform:translateY(-1px)}
+.project-link .project-copy{justify-content:center}
+.project-link .project-repo{margin-top:30px}
+.project-photo{height:360px;max-height:360px;min-height:0}
 
 /* Journey dates must stay horizontal and clear of the center line. */
 .journey-timeline time{
