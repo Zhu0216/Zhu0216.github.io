@@ -19,3 +19,9 @@ menuButton?.addEventListener('click', () => {
 document.querySelectorAll('.main-nav a').forEach((link) => link.addEventListener('click', () => {
   body.style.overflow = '';
 }));
+
+// Use the latest POS reference image without making the project card itself a link.
+document.querySelectorAll('.project-photo[src="assets/project-pos-alt.jpg"]').forEach((image) => {
+  image.src = 'assets/project-pos-alt2.jpg';
+  image.alt = 'POS 點餐系統畫面';
+});

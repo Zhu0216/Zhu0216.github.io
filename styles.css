@@ -37,3 +37,6 @@
   }
   .journey-event article{align-self:center}
 }
+
+/* Keep project screenshots fully visible inside the fixed frame. */
+.project-photo{object-fit:contain!important;background:#eee}
